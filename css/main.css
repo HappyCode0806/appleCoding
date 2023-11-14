@@ -9,3 +9,18 @@
     font-size: 17px; 
     text-align: center;
 }
+
+p {
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+}
