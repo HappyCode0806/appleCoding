@@ -10,17 +10,94 @@
     text-align: center;
 }
 
-p {
-    text-align: center;
-}
-
 .box {
-    width: 200px;
+    width: 300px;
     background-color: cadetblue;
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
-    border: 2px solid black;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 13px;
+    box-shadow: 5px 5px 5px black; 
+}
+
+.content {
+    font-size: 16px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: aquamarine;
+}
+
+.left-menu {
+    width: 20%;
+    height: 400px;
+    background: cornflowerblue;
+    display: inline-block;
+}
+
+.right {
+    width: 80%;
+    height: 400px;
+    background: coral;
+    display: inline-block;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: grey;
+    /* clear: both; */
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+	background-image: url(../img/shoes.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 5px;
+}
+
+.main-title {
+		color: white;
+		font-size: 100px;
+		margin-top: 100px;
+		margin-bottom: 0px;
+		margin-left: 100px;
+}
+
+.main-content {
+		font-size: 25px;
+		color: #eee;
+		text-align: left;
+		margin-top: 5px;
+		margin-left: 100px;
+}
+
+.button > a {
+		text-decoration: none;
+		color: inherit;
+}
+
+.main-button {
+		width: 100px;
+		height: 50px;
+		background-color: grey;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		border-radius: 8px;
+		border: none;
+		padding: 10px;
+		position: relative;
+		left: 100px;
 }
