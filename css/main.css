@@ -118,10 +118,74 @@ body {
     margin: auto;
     top: -50px;
     position: relative;
-    top: -40px;
     font-size: 20px;
 }
 
 div {
     box-sizing: border-box;
+}
+
+
+/* homework_form_css */
+input, textarea {
+    box-sizing: border-box;
+}
+
+.form-background {
+    background-color: black;
+    padding: 30px;
+}
+
+.form-white {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-input {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form-long {
+    height: 200px;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 10px;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px
+}
+
+.orange-button {
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    width: 150px;
+}
+
+#id {
+    float: left;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
 }
